@@ -126,8 +126,6 @@ void setup()
   delay(5);
        flashLED(POWERON_LED);
 
-  int_sensor=true;
-  ext_sensor=false;
   // Ready the Internal sensor
   if(int_sensor)
   {
